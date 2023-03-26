@@ -88,7 +88,7 @@ async fn main() -> Result<()> {
 
 	let span = info_span!(parent: None, "xdg-desktop-portal-cosmic");
 	start_component(
-		"/usr/libexec/xdg-desktop-portal-cosmic",
+		"/usr/lib/xdg-desktop-portal-cosmic",
 		span,
 		&process_manager,
 		&env_vars,
